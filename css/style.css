@@ -15,8 +15,86 @@ img {
     width: 100%;
 }
 
+h1 {
+    text-align: left;
+    font-size: 2rem;
+    line-height: 2.8rem;
+    padding-bottom: 25px;
+}
+
+p {
+    line-height: 1rem;
+    font-size: 12px;
+}
+
 /*** utilities ***/
 
+.flex {
+    display: flex;
+}
+
+.bottom-blue {
+    border: none;
+    background-color: #0061ff;
+    color: white;
+    padding: 5px 10px;
+}
 
 
 /*** content ***/
+
+/** header **/
+header {
+    background-color: white;
+    padding: 10px 10px;
+    justify-content: space-between;
+    font-size: small;
+    align-items: center;
+}
+
+nav a {
+    text-decoration-line: none;
+    color: #8a8a8a;
+    margin: 0px 10px;
+}
+
+nav img {
+    width: 90px;
+    vertical-align: middle;
+    padding-bottom: 4px;
+    margin-right: 10px;
+}
+
+
+
+
+/** main **/
+
+/* features */
+.features {
+    position: relative;
+    background-color: #b4d0e7;
+    padding: 50px 200px 0px 200px;
+}
+
+
+.container-features img {
+    position: absolute;
+    width: 45%;
+    right: 17%;
+}
+
+.container-features {
+    width: calc(100% / 3);
+}
+
+.container-features button {
+    margin: 20px 0px;
+}
+
+.container-features i {
+    font-size: 25px;
+    padding: 30px 0px 5px;
+}
+
+/** footer **/
