@@ -18,13 +18,25 @@ img {
 h1 {
     text-align: left;
     font-size: 2rem;
-    line-height: 2.8rem;
-    padding-bottom: 25px;
+    line-height: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h6 {
+    font-size: 20px;
 }
 
 p {
     line-height: 1rem;
     font-size: 12px;
+}
+
+hr {
+    margin: 36px 0px;
+    margin-right: 90%;
 }
 
 /*** utilities ***/
@@ -33,18 +45,39 @@ p {
     display: flex;
 }
 
+.space-between {
+    justify-content: space-between;
+}
+
 .bottom-blue {
     border: none;
     background-color: #0061ff;
     color: white;
-    padding: 5px 10px;
+    padding: 7px 10px;
 }
 
+.button-white {
+    border: 1px solid black;
+    background-color: #ffff;
+    color: black;
+    padding: 7px 10px;
+}
+
+
+.margin-sections {
+    margin: 90px 260px 0px;
+    width: 0 auto;
+}
+
+#blue {
+    color: #0061ff;
+}
 
 /*** content ***/
 
 /** header **/
 header {
+    max-width: 100%;
     background-color: white;
     padding: 10px 10px;
     justify-content: space-between;
@@ -71,21 +104,22 @@ nav img {
 /** main **/
 
 /* features */
-.features {
-    position: relative;
+#features {
     background-color: #b4d0e7;
     padding: 50px 200px 0px 200px;
 }
 
 
 .container-features img {
-    position: absolute;
-    width: 45%;
-    right: 17%;
+    position: relative;
+    width: 70%;
+    top: 40px;
 }
 
-.container-features {
-    width: calc(100% / 3);
+.container-features div {
+    position: relative;
+    top: 40px;
+    width: 30%;
 }
 
 .container-features button {
@@ -94,7 +128,68 @@ nav img {
 
 .container-features i {
     font-size: 25px;
-    padding: 30px 0px 5px;
+    padding: 55px 0px 5px;
 }
+
+/* purchase plans */
+
+.container-purchase-plans {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container-purchase-plan {
+    border: 1px solid #e1e1e3;
+    width: calc(100% / 3 - 20px);
+
+}
+
+#input-radio {
+    padding: 60px 0px 40px;
+}
+
+#payment-year {
+    margin-left: 30px;
+}
+
+#purchase-plan-user {
+    border-bottom: 1px solid #e1e1e3;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.container-purchase-plan>div {
+    padding: 0px 20px;
+    line-height: 70px;
+}
+
+.container-purchase-plan div p {
+    margin: 10px 0px;
+}
+
+#orizontal-purchase-plan {
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid #e1e1e3;
+    margin-top: 20px;
+}
+
+#orizontal-purchase-plan>div {
+    padding: 20px;
+}
+
+#sales-office {
+    font-weight: bold;
+    padding: 20px 0px 50px;
+}
+
+
+/* partners contacts */
+
+
+
+
+
+
 
 /** footer **/
