@@ -193,3 +193,18 @@ nav img {
 
 
 /** footer **/
+
+#partners-contacts img {
+    width: 60%;
+}
+
+
+#partners-contacts div {
+    width: 40%;
+    padding: 37px;
+    line-height: 30px;
+}
+
+#partners-contacts p {
+    padding: 30px 0px;
+}
