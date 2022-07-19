@@ -297,6 +297,10 @@ nav img {
     color: white;
 }
 
+#border-big {
+    border: 10px solid #d1e9cd;
+}
+
 #university-florida {
     padding: 96px 53px;
 }
