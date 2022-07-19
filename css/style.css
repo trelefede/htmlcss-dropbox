@@ -213,6 +213,10 @@ nav img {
     padding: 20px;
 }
 
+#part-width {
+    width: 70%;
+}
+
 #sales-office {
     font-weight: bold;
     padding: 20px 0px 50px;
@@ -304,6 +308,23 @@ nav img {
 .square-center p {
     margin-bottom: 40px;
 }
+
+/* free trial */
+
+#free-trial {
+    background-color: #b4d0e7;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 90px 260px 90px;
+}
+
+#free-trial h3 {
+    width: 50%;
+}
+
+/* faq */
 
 
 /** footer **/
