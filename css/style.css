@@ -46,6 +46,10 @@ hr {
     display: flex;
 }
 
+.column {
+    flex-direction: column;
+}
+
 .space-between {
     justify-content: space-between;
 }
@@ -346,3 +350,34 @@ nav img {
 
 
 /** footer **/
+
+footer {
+    padding: 50px 200px 0px 200px;
+    background-color: black;
+    color: white;
+}
+
+.links h6 {
+    margin-bottom: 20px;
+}
+
+
+.links a {
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    font-size: 0.6rem;
+    line-height: 25px;
+}
+
+footer hr {
+    color: white;
+}
+
+.site-languages p {
+    vertical-align: middle;
+    padding: 3px;
+    font-weight: lighter;
+    color: #999999;
+    padding-bottom: 30px;
+}
