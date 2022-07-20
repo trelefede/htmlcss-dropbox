@@ -302,6 +302,12 @@ nav img {
     width: calc(100% / 2);
     height: calc(426.66px / 2);
     padding: 50px;
+    transition: .3s linear;
+}
+
+.square-lateral img:hover {
+    outline: 5px solid currentColor;
+    outline-offset: -5px;
 }
 
 .white-font {
