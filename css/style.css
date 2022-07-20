@@ -59,6 +59,7 @@ hr {
     background-color: #0061ff;
     color: white;
     padding: 7px 10px;
+    transition: 1s linear;
 }
 
 .button-white {
@@ -66,8 +67,13 @@ hr {
     background-color: #ffff;
     color: black;
     padding: 7px 10px;
+    transition: .1 linear;
 }
 
+.bottom-blue:hover,
+.button-white:hover {
+    opacity: 0.7;
+}
 
 .margin-sections {
     margin: 90px 260px 0px;
@@ -127,6 +133,11 @@ nav a {
     text-decoration-line: none;
     color: #8a8a8a;
     margin: 0px 10px;
+    transition: .1s linear;
+}
+
+nav a:hover {
+    border-bottom: 1px solid #8a8a8a;
 }
 
 nav img {
