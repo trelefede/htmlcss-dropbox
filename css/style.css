@@ -360,16 +360,29 @@ nav img {
 #faq p {
     font-size: 0.8rem;
     border-top: 1px solid black;
-    padding: 20px 0px;
+    padding: 20px 0px 10px;
     display: flex;
     justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.answer-hidden {
+    font-size: .7rem;
+    color: #3a3838;
+    padding-bottom: 20px;
+    text-align: left;
+    display: none;
+    transition: 1s linear;
+}
+
+.faq p:hover+.answer-hidden {
+    display: inline;
 }
 
 #faq p:last-of-type {
     border-bottom: 1px solid black;
     margin-bottom: 70px;
 }
-
 
 /** footer **/
 
