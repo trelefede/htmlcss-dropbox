@@ -80,7 +80,7 @@ hr {
     width: 0 auto;
 }
 
-#blue {
+.blue {
     color: #0061ff;
 }
 
@@ -214,7 +214,12 @@ nav img {
 }
 
 .container-purchase-plan div p {
+    display: flex;
     margin: 10px 0px;
+}
+
+.container-purchase-plan div p i {
+    padding-right: 5px;
 }
 
 #orizontal-purchase-plan {
@@ -353,17 +358,22 @@ nav img {
 
 /* faq */
 
-#faq h3 {
+.faq h3 {
     margin-bottom: 40px;
 }
 
-#faq p {
+.faq p {
     font-size: 0.8rem;
     border-top: 1px solid black;
     padding: 20px 0px 10px;
     display: flex;
     justify-content: space-between;
     margin: 10px 0px;
+    transition: 1s linear;
+}
+
+.question {
+    transition: 1s linear;
 }
 
 .answer-hidden {
@@ -375,14 +385,15 @@ nav img {
     transition: 1s linear;
 }
 
-.faq p:hover+.answer-hidden {
+.question:hover .answer-hidden {
     display: inline;
 }
 
-#faq p:last-of-type {
-    border-bottom: 1px solid black;
+#last-faq {
     margin-bottom: 70px;
+    border-bottom: 1px solid black;
 }
+
 
 /** footer **/
 
